@@ -1,12 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - mrdonkey08
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - mrdonkey08/programacion-web
+  - mrdonkey08/job-extintion
+  - mrdonkey08/huffman
+  - mrdonkey08/chat_tender
+  - mrdonkey08/bd_derrumbes
+  - mrdonkey08/escuela
+  - forajido24/ProyectoFinal

@@ -1,6 +1,7 @@
 ---
 layout: about
 title: About
+subtitle: Estudiante en Ingeniería en Computación
 permalink: /
 
 profile:

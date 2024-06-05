@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: MrDonkey08 Blog # the website title (if blank, full name will be used instead)
+title: blank # the website title (if blank, full name will be used instead)
 first_name: Alan
 middle_name: Yahir
 last_name: Juárez Rubio
@@ -129,7 +129,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: MrDonkey08 Blog # blog_name will be displayed in your blog page
+blog_name: Donkey's Blog # blog_name will be displayed in your blog page
 blog_description: Blog de ciberseguridad, informática, computación y demás.
 permalink: /blog/:categories/:title/
 lsi: false # produce an index for related posts
@@ -236,6 +236,7 @@ keep_files:
 # Plug-ins
 plugins:
   - jekyll-archives
+  - jekyll-diagrams
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-get-json
@@ -286,7 +287,7 @@ jekyll-archives:
     category: "/blog/category/:name/"
 
 #display_tags: ["formatting", "images", "links", "math", "code"] # these tags will be displayed on the front page of your blog
-display_categories: ["computación", "ciberseguridad", "informática", "linux", "español", "matemáticas"] # these categories will be displayed on the front page of your blog
+display_categories: ["computacion", "ciberseguridad", "informatica", "linux", "español", "matematicas"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

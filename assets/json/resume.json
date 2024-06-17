@@ -4,7 +4,7 @@
     "label": "Computer Engineer",
     "image": "",
     "email": "alanyjr0817@pm.me",
-    "phone": "33 3103 4466",
+    "phone": "",
     "url": "https://mrdonkey08.github.io/",
     "summary": "Computer Engineering student passionate about cibersecurity, data science, web development and everything about computers and software development"
   },
@@ -48,14 +48,14 @@
       "date": "2024-05-28",
       "issuer": "Platzi",
       "url": "https://platzi.com/p/Alan_08/ruta/1-fundamentos-programacion/diploma/detalle/",
-      "icon": "fa-solid fa-location-dot"
+      "icon": "fa-solid fa-hashtag"
     },
     {
       "name": "Web Development Fundamentals",
       "date": "2024-05-29",
       "issuer": "Platzi",
       "url": "https://platzi.com/p/Alan_08/ruta/7039-web-fundamentos/diploma/detalle",
-      "icon": "fa-solid fa-tag"
+      "icon": "fa-solid fa-hashtag"
     },
     {
       "name": "Object Oriented Programming in C++",
@@ -69,7 +69,7 @@
       "date": "2023-08-28",
       "issuer": "Platzi",
       "url": "https://platzi.com/p/Alan_08/curso/1557-git-github/diploma/detalle/",
-      "icon": "fa-solid fa-envelope"
+      "icon": "fa-solid fa-hashtag"
     },
     {
       "name": "Bash Shell Programming",
@@ -97,6 +97,20 @@
       "date": "2022-07-23",
       "issuer": "Mastermind",
       "url": "https://www.mastermind.ac/certificates/fce904651f9a459aa961c1d9f8514e55",
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "Electricity & Electronics Fundamentals",
+      "date": "2022-07-23",
+      "issuer": "Mastermind",
+      "url": "https://platzi.com/p/Alan_08/curso/1609-electronica/diploma/detalle/",
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "Electricity & Electronics Fundamentals",
+      "date": "2022-07-23",
+      "issuer": "Mastermind",
+      "url": "https://platzi.com/p/Alan_08/curso/1632-fundamentos-circuitos/diploma/detalle/",
       "icon": "fa-solid fa-hashtag"
     }
   ],
@@ -130,7 +144,7 @@
       "level": "Junior",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Operative System: Setup, Optimization and Maintenance of Windows and Linux",
+        "Operating System: Setup, Optimization and Maintenance of Windows and Linux",
         "Software: Setup",
         "Hardware: Setup, Budget and Assembly"
       ]
@@ -165,9 +179,9 @@
       "keywords": ["Backend", "Databases", "Servers", "Web Development"]
     },
     {
-      "name": "Internet of Things",
+      "name": "Hardware",
       "icon": "fa-solid fa-tag",
-      "keywords": ["Arduino", "Electricity and Electroncs Fundamentals", "Rasperry PI"]
+      "keywords": ["Arduino", "Electronic Repair", "Rasperry PI"]
     }
   ]
 }

@@ -5,7 +5,9 @@ title: Curriculum Vitae
 nav: true
 nav_order: 3
 cv_pdf: cv.pdf
-description:
+description: null
 toc:
   sidebar: left
 ---
+
+

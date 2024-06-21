@@ -97,7 +97,7 @@ especialmente de la longitud y complejidad de las secuencias.
 >
 > Si el texto encabezado por la conjunción es corto, se usa la coma; si tiene
 > una extensión considerable, es mejor utilizar el punto y seguido.
-{: .block-tip }
+> {: .block-tip }
 
 ## El Punto `.`
 
@@ -209,7 +209,7 @@ Los niveles suelen ser de la siguiente manera:
 > embargo, en textos impresos se recomienda utilizarlas como primera instancia,
 > reservando los otros tipos para cuando deban entrecomillarse partes de un texto
 > ya entrecomillado.
-{: .block-important }
+> {: .block-important }
 
 ## Rayas
 

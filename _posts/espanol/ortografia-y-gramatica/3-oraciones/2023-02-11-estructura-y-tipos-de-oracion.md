@@ -36,7 +36,7 @@ Informan sobre un acontecimiento de manera objetiva.
 >
 > - _Estudiar te hará_ una persona inteligente.
 > - No tengo hambre, gracias.
-{: .block-example}
+>   {: .block-example}
 
 ### Interrogativas
 
@@ -53,7 +53,7 @@ Formulan una _pregunta_.
 > - **Indirecta**:
 >   - No se en **qué** consiste el proyecto.
 >   - Tenemos que investigar **cómo** funciona el internet.
-{: .block-example}
+>     {: .block-example}
 
 ### Exclamativas
 
@@ -63,7 +63,7 @@ Expresan una _emoción_. Se utilizan _signos de admiración_.
 >
 > - Amiga,... ¡me voy a casaaaaaar!
 > - ¡No le hables así a tu madre!
-{: .block-example}
+>   {: .block-example}
 
 ### Imperativas
 
@@ -82,7 +82,7 @@ súplica estás rogando por ello.
 > - **Súplica**
 >   - ¡Pérdonameeeeeee! ¡No era mi intención!
 >   - Ayúdame con la tarea, por favor. No le entiendo.
-{: .block-example}
+>     {: .block-example}
 
 ### Dubitativas
 
@@ -94,7 +94,7 @@ Expresan una _duda_ o _posibilidad_.
 > - Creo que ya pagó el recibo.
 > - Pienso que ella prefiere una laptop que una computadora de escritorio.
 > - Posiblemente se metió un gato.
-{: .block-example}
+>   {: .block-example}
 
 ### Optativas o Desiderativas
 
@@ -107,7 +107,7 @@ palabras como "ójala", "espero que" y "desearía que".
 > - Espero que aún haya sandwiches.
 > - Desearía que ella estuviera aquí.
 > - Como quisiera poder vivir sin aire. [🎵](https://www.youtube.com/watch?v=g3uxeG1rrlE)
-{: .block-example}
+>   {: .block-example}
 
 ## Bonus
 
@@ -118,7 +118,7 @@ En español, podemos omitir el sujeto.
 > - ~~Yo~~ estoy limpiando mi cuarto.
 > - ~~**Tú**~~ estabas comiendo una sandía.
 > - ~~**Pedro y Pablo**~~ eran hermanos, amigos inseparables. [🎵](https://www.youtube.com/watch?v=nANFCopfP0I)
-{: .block-example}
+>   {: .block-example}
 
 Claro que para la tercera persona hay que evitar omitir el sujeto sino se
 sabe de quién se está hablando.

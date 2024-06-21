@@ -39,7 +39,7 @@ palabra. _No todas las palabras llevan tilde_.
 >
 > Si una palabra que lleva _tilde_ está en mayúsculas, la _tilde_ no se debe
 > omitir.
-{: .block-important }
+> {: .block-important }
 
 <div style="page-break-after: always;"></div>
 

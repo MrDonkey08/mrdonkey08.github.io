@@ -32,7 +32,7 @@ nodo A y un nodo B, solo existirá una conexión entre ellos.
 > ##### NOTA
 >
 > En los árboles solo puede haber una conexión entre dos nodos.
-{: .block-note }
+> {: .block-note }
 
 <div align="center">
   <figure>

@@ -32,7 +32,7 @@ ssh-keygen -t ed25519 -C "tu@email.com"
 >  ssh-keygen -t rsa -b 4096 -C "tu@email.com"
 > ```
 >
-{: .block-note }
+> {: .block-note }
 
 ```shell
 Introduce la ruta en donde se guardará la llave (/home/YOU/.ssh/ALGORITHM): [Press enter]

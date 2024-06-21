@@ -102,7 +102,7 @@ A continuación los pasos del _algoritmo de Kruskal_:
 >   y si se presenta algun ciclo o ruta cerrada, puedes regresarte a cualquiera de
 >   los demás nodos que ya han sido conectados y seguir conectando aquellos que no
 >   están conectados.
-{: .block-note }
+>   {: .block-note }
 
 ## Árbol de Expansión Máximo
 

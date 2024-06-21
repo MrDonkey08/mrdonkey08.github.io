@@ -43,7 +43,7 @@ ir de un nodo a otro a través de las conexiones del grafo.
 >
 > Si en un grafo hay más de dos vértices con grado impar, es imposible recorrer
 > cada una de las aristas sin repetir nodos.
-{: .block-note }
+> {: .block-note }
 
 ## Caminos, Cadenas y Ciclos
 

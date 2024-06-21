@@ -27,7 +27,7 @@ toc:
 > En la actualidad utilizamos los términos **CLI**, **terminal** y **consola**
 > para referirnos al **terminal virtual** o **emulador de terminal**. Después de
 > estos conceptos, haremos usos de estos.
-{: .block-note }
+> {: .block-note }
 
 - **[Shell](2-shells.md):** Programa que provee una _interfaz de usuario_ para
   acceder a los _servicios del sistema_, es decir, es el intermediario entre el

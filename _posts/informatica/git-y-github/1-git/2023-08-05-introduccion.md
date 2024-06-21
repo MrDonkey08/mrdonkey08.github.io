@@ -104,7 +104,7 @@ nosotros no.
 > en cambio remplazará "la versión anterior" con la "versión actual"; esto impide
 > que ahorres espacio y que puedas tener un seguimiento tan eficaz tal como un
 > **texto plano**.
-{: .block-warning }
+> {: .block-warning }
 
 En **git** lo ideal sería no trabajar con binarios, sino tenerlos alojados en
 otro servicio o servidor (e.g. Google Drive). Sin embargo, si te es

@@ -34,7 +34,7 @@ como el divisor son factores de dicho número.
 >
 > Cabe destacar que, si un número es non, no es necesario analizar los números
 > pares porque al dividir un non entre un par, siempre da decimal.
-{: .block-tip }
+> {: .block-tip }
 
 ## Número Primo
 

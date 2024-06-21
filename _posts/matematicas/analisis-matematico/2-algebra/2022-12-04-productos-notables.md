@@ -63,14 +63,14 @@ $$(a+b)^2 = a^2 + 2ab + b^2$$
 > Obervando la figura 1 observamos que:
 >
 > $$(a + b^2) \neq a^2 + b^2$$
-{: .block-warning }
+> {: .block-warning }
 
 ## Binomios Conjugados
 
 > ##### NOTA
 >
 > A este producto notable también se le conoce como **diferencia de cuadrados**
-{: .block-note }
+> {: .block-note }
 
 Un **binomio conjugado** se denota como:
 

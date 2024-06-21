@@ -32,7 +32,7 @@ sílaba_. Llevan tilde cuando terminan en _vocal_, _N_ o _S_.
 >
 > Si el **acento** pertenece a un _diptongo_, se debe poner _tilde_ en la
 > _última vocal_.
-{: .block-note }
+> {: .block-note }
 
 ## Palabra grave o llana
 
@@ -45,7 +45,7 @@ _vocal_, _N_ o _S_.
 > Cuando en un "**[diptongo](2023-02-07-diptongo-tripotongo-e-hiato.md)**"
 > una de las vocales lleva _tilde_ se clasifica como _hiato_. Las **palabras
 > graves** que terminan en _hiato_ llevan _tilde_ aunque terminen en vocal.
-{: .block-important }
+> {: .block-important }
 
 ## Palabra esdrujúla
 
@@ -57,7 +57,7 @@ llevan tilde_.
 >
 > Las palabras que terminan en **isimo - isimo** siempre se escriben con _s_ y,
 > además, _siempre son esdrujúlas_.
-{: .block-note }
+> {: .block-note }
 
 ## Palabras sobresdrujúlas
 
@@ -71,7 +71,7 @@ sílabas más atrás. Estas, al igual que la esdrujúla, _siempre lleva tilde_.
 > _tilde_ o no, basta con analizar su _"palabra base"_, es decir, si esta lleva
 > _tilde_ sin el sufijo _mente_, entonces con el sufijo _mente_ también lleva
 > _tilde_ en el mismo lugar.
-{: .block-tip }
+> {: .block-tip }
 
 <div style="page-break-after: always;"></div>
 

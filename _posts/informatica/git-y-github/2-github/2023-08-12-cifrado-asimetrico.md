@@ -31,7 +31,7 @@ entender el **mensaje**, pueda descifrarlo.
 >
 > - **Candado** a la **llave pública** (algoritmo de encriptación)
 > - **Llave** a la **llave privada** (algoritmo de desencriptación)
-{: .block-note }
+>   {: .block-note }
 
 Antes que nada es necesario establecer ciertos puntos:
 

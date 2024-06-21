@@ -79,7 +79,7 @@ _algoritmo de Fleury_ son:
 > ##### CONSEJO
 >
 > Un _ciclo euleriano_ se ha hecho correctamente si el número de veces que el nodo aparece en el ciclo euleriano es la mitad del grado que tiene en el grafo.
-{: .block-tip }
+> {: .block-tip }
 
 ## Caminos Hamiltoniano
 
@@ -98,7 +98,7 @@ donde $n$ es el número de vértices del grafo.
 >
 > Si un grafo no cumple con esta condición, no significa que no sea hamiltoniano,
 > sino que simplemente no se puede asegurar que sea un _camino hamiltoniano_
-{: .block-note}
+> {: .block-note}
 
 ## Ciclo Hamiltoniano
 

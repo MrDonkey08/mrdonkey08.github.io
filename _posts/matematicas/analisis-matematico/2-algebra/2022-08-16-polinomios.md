@@ -76,7 +76,7 @@ $$5x^2 + x - 3$$
 >
 > A las ecuaciones con más de 4 términos no tienen un nombre en específico,
 > simplemente se les denomina como **polinomio**.
-{: .block-tip }
+> {: .block-tip }
 
 ## Grado de un polinomio
 

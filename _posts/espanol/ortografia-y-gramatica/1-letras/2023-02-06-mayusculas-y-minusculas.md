@@ -42,7 +42,7 @@ También se deben de usar al comienzo de:
 >
 > - **Sigla**: Conjunto de letras que se emplea como una abreviatura
 > - **Acrónimo**: Sigla que se puede leer naturalmente
-{: .block-note }
+>   {: .block-note }
 
 Para escribir una **sigla** o **acrónimo** se utilizan _puras mayúsculas_.
 Cabe mencionar que, a diferencia de una abreviación, las _**siglas** y los

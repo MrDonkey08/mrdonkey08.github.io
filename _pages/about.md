@@ -1,25 +1,38 @@
 ---
 layout: about
-title: about
+title: Acerca de mí
+subtitle: Estudiante en Ingeniería en Computación
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.webp
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Guadajalara, Jalisco, México</p>
 
-news: true # includes a list of news items
+news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hola, mi nombre es Alan, y soy un apasionado de la ciberseguridad, la ciencia
+de datos, el desarrollo web y todo lo relacionado con las computadoras y el
+desarrollo de software.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Actualmente, mi principal interés es la ciberseguridad, y espero que pronto se
+convierta en mi especialidad.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Estoy cursando sexto semestre de la carrera de Ingeniería de Cómputo en el
+Centro Universitario de Ciencias Exactas e Ingenierías (CUCEI, UDG). Me encanta
+aprender constantemente, y siempre estoy involucrado en estudios o en mini
+proyectos que me permiten aplicar y reforzar mis conocimientos.
+
+En este momento, estoy en busca de trabajo, preferentemente en un área
+relacionada con la computación.
+
+En el futuro, planeo compartir mis conocimientos, no solo a través de este blog,
+sino también por otros medios. Me gustaría convertirme en profesor, crear
+cursos, hacer videos en YouTube, y más.
+
+Estoy muy emocionado por el camino hacia convertirme en un profesional.

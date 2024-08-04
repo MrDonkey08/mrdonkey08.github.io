@@ -1,14 +1,13 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - mrdonkey08
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - mrdonkey08/programacion-web
+  - mrdonkey08/job-extintion
+  - mrdonkey08/huffman
+  - mrdonkey08/chat_tender
+  - mrdonkey08/bd_derrumbes
+  - mrdonkey08/escuela
+  - forajido24/ProyectoFinal

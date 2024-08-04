@@ -68,11 +68,16 @@ blockquote {
   }
 
   /* Tips, warnings, and dangers blockquotes */
+
   &.block-tip {
     border-color: var(--global-tip-block);
     background-color: var(--global-tip-block-bg);
 
-    p {
+    p,
+    li,
+    strong,
+    em,
+    mjx-container {
       color: var(--global-tip-block-text);
     }
 
@@ -90,7 +95,11 @@ blockquote {
     border-color: var(--global-warning-block);
     background-color: var(--global-warning-block-bg);
 
-    p {
+    p,
+    li,
+    strong,
+    em,
+    mjx-container {
       color: var(--global-warning-block-text);
     }
 
@@ -108,7 +117,11 @@ blockquote {
     border-color: var(--global-danger-block);
     background-color: var(--global-danger-block-bg);
 
-    p {
+    p,
+    li,
+    strong,
+    em,
+    mjx-container {
       color: var(--global-danger-block-text);
     }
 
@@ -121,8 +134,134 @@ blockquote {
       color: var(--global-danger-block-title);
     }
   }
-}
+  // Customized
+  &.block-abstract {
+    border-color: var(--global-abstract-block);
+    background-color: var(--global-abstract-block-bg);
 
+    p,
+    li,
+    strong,
+    em,
+    mjx-container {
+      color: var(--global-abstract-block-text);
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: var(--global-abstract-block-title);
+    }
+  }
+  &.block-note {
+    border-color: var(--global-note-block);
+    background-color: var(--global-note-block-bg);
+
+    p,
+    li,
+    strong,
+    em,
+    mjx-container {
+      color: var(--global-note-block-text);
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: var(--global-note-block-title);
+    }
+  }
+  &.block-help {
+    border-color: var(--global-help-block);
+    background-color: var(--global-help-block-bg);
+
+    p,
+    li,
+    strong,
+    em,
+    mjx-container {
+      color: var(--global-help-block-text);
+    }
+
+    h1,
+    h2,
+    h3,
+    u h4,
+    h5,
+    h6 {
+      color: var(--global-help-block-title);
+    }
+  }
+  &.block-important {
+    border-color: var(--global-important-block);
+    background-color: var(--global-important-block-bg);
+
+    p,
+    li,
+    strong,
+    em,
+    mjx-container {
+      color: var(--global-important-block-text);
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: var(--global-important-block-title);
+    }
+  }
+  &.block-example {
+    border-color: var(--global-example-block);
+    background-color: var(--global-example-block-bg);
+
+    p,
+    li,
+    strong,
+    em,
+    mjx-container {
+      color: var(--global-example-block-text);
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: var(--global-example-block-title);
+    }
+  }
+  &.block-quote {
+    border-color: var(--global-quote-block);
+    background-color: var(--global-quote-block-bg);
+
+    p,
+    li,
+    strong,
+    em,
+    mjx-container {
+      color: var(--global-quote-block-text);
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: var(--global-quote-block-title);
+    }
+  }
+}
 // Checklist
 
 ul.task-list {

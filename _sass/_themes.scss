@@ -34,6 +34,31 @@
   --global-danger-block-bg: #ffe0e0;
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
+  // Custom block colors
+  --global-abstract-block: #000fa9;
+  --global-abstract-block-bg: #ced3ff;
+  --global-abstract-block-text: #001960;
+  --global-abstract-block-title: #000d8d;
+  --global-note-block: #004bcd;
+  --global-note-block-bg: #b6d2ff;
+  --global-note-block-text: #082f6f;
+  --global-note-block-title: #0842a6;
+  --global-help-block: #8e8c16;
+  --global-help-block-bg: #e8e7cd;
+  --global-help-block-text: #747312;
+  --global-help-block-title: #989705;
+  --global-important-block: #eb8700;
+  --global-important-block-bg: #ffe0b7;
+  --global-important-block-text: #ad6300;
+  --global-important-block-title: #c47100;
+  --global-example-block: #6000c0;
+  --global-example-block-bg: #d5acff;
+  --global-example-block-text: #320064;
+  --global-example-block-title: #480091;
+  --global-quote-block: #9c9c9c;
+  --global-quote-block-bg: #e6e6e6;
+  --global-quote-block-text: #626262;
+  --global-quote-block-title: #787878;
 
   #light-toggle-system {
     padding-left: 10px;
@@ -98,6 +123,31 @@ html[data-theme="dark"] {
   --global-danger-block-bg: #ffe0e0;
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
+  // Custom block colors
+  --global-abstract-block: #000fa9;
+  --global-abstract-block-bg: #ced3ff;
+  --global-abstract-block-text: #001960;
+  --global-abstract-block-title: #000d8d;
+  --global-note-block: #004bcd;
+  --global-note-block-bg: #b6d2ff;
+  --global-note-block-text: #082f6f;
+  --global-note-block-title: #0842a6;
+  --global-help-block: #8e8c16;
+  --global-help-block-bg: #e8e7cd;
+  --global-help-block-text: #747312;
+  --global-help-block-title: #989705;
+  --global-important-block: #eb8700;
+  --global-important-block-bg: #ffe0b7;
+  --global-important-block-text: #ad6300;
+  --global-important-block-title: #c47100;
+  --global-example-block: #6000c0;
+  --global-example-block-bg: #d5acff;
+  --global-example-block-text: #320064;
+  --global-example-block-title: #480091;
+  --global-quote-block: #9c9c9c;
+  --global-quote-block-bg: #e6e6e6;
+  --global-quote-block-text: #626262;
+  --global-quote-block-title: #787878;
 
   .repo-img-light {
     display: none;

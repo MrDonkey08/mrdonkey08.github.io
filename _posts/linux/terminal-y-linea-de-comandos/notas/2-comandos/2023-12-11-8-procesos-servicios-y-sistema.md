@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Redes
+title: Gestión de Procesos, Servicios y el Sistema
 author: Alan Yahir Juárez Rubio
 description: |
   Variedad de comandos para la el monitoreo y la gestión de procesos, servicios
@@ -15,11 +15,13 @@ tags:
   - servicios
   - sistema
 
-date: 2023-12-11
+date: 2023-12-11 18:30
 last_updated: 2024-12-08
 
 toc:
-  sidbar: right
+  beginning: true
+
+pretty_table: true
 ---
 
 ## Administración de Procesos
@@ -33,12 +35,12 @@ toc:
 
 ### Job Control
 
-| Comando | Descripción                                                                                                                                                                                               | Ejemplo                                           |
-| :-----: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
-|  `bg`   | Reanuda los procesos suspendidos (se suspenden con `ctrl` + `z`) y los manda al _background_                                                                                                              |                                                   |
-|  `fg`   | Manda el o los procesos que se encuentran el _background_ hacia el _foreground_                                                                                                                           |                                                   |
-| `nohup` | Dado un comando como parámetro, permite que el comando siga ejecutándose incluso cuando la terminal ha sido cerrada                                                                                       | `nohup zathura book.pdf`<br><br>`nohup firefox &` |
-| `nice`  | Dado un comando, permite ejecutarlo con una prioridad de agenda (niceness) modificada (i.e. prioridad de ejecución). El _niceness_ es un número entero entre -20 (mayor prioridad) y 19 (menor prioridad) |                                                   |
+| Comando | Descripción                                                                                                                                                                                               | Ejemplo                                       |
+| :-----: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
+|  `bg`   | Reanuda los procesos suspendidos (se suspenden con `ctrl` + `z`) y los manda al _background_                                                                                                              |                                               |
+|  `fg`   | Manda el o los procesos que se encuentran el _background_ hacia el _foreground_                                                                                                                           |                                               |
+| `nohup` | Dado un comando como parámetro, permite que el comando siga ejecutándose incluso cuando la terminal ha sido cerrada                                                                                       | `nohup zathura book.pdf`<br>`nohup firefox &` |
+| `nice`  | Dado un comando, permite ejecutarlo con una prioridad de agenda (niceness) modificada (i.e. prioridad de ejecución). El _niceness_ es un número entero entre -20 (mayor prioridad) y 19 (menor prioridad) |                                               |
 
 ### Comandos de Terminación de Procesos
 
@@ -95,20 +97,20 @@ Directorio de Logs: `/var/log/`
 
 - [Linux Command](https://linuxcommand.org/).
   (s.f.).
-  _Job Control_
-  Recuperado el 08 de diciembre de 2024 de
+  _Job Control_.
+  Consultado el 08 de diciembre de 2024 de
 - <https://linuxcommand.org/lc3_lts0100.php>
 
 - [Imran Afzal](https://www.udemy.com/course/complete-linux-training-course-to-get-your-dream-it-job/#instructor-1)
   (s.f)
   _108. System Logs Monitor (/var/log)_.
   Complete Linux Training Course to Get Your Dream IT Job 2024.
-  Recuperado el 08 de diciembre de 2024 de
+  Consultado el 08 de diciembre de 2024 de
   <https://www.udemy.com/course/complete-linux-training-course-to-get-your-dream-it-job/learn/lecture/9656582>
 
 - [Imran Afzal](https://www.udemy.com/course/complete-linux-training-course-to-get-your-dream-it-job/#instructor-1)
   (s.f)
   _System Monitoring Commands (df, dmesg, iostat 1, netstat, free, top)_.
   Complete Linux Training Course to Get Your Dream IT Job 2024.
-  Recuperado el 08 de diciembre de 2024 de
+  Consultado el 08 de diciembre de 2024 de
 - <https://www.udemy.com/course/complete-linux-training-course-to-get-your-dream-it-job/learn/lecture/9165602/12445338>

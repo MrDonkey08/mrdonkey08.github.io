@@ -15,11 +15,13 @@ tags:
   - filtros
   - impresion
 
-date: 2023-12-11
+date: 2023-12-11 13:02
 last_updated: 2024-12-08
 
 toc:
-  sidbar: right
+  beginning: true
+
+pretty_table: true
 ---
 
 ## Búsqueda de Archivos
@@ -67,7 +69,7 @@ toc:
 
 - Platzi
   (s.f.).
-  _Explorando el contenido de nuestros archivos_
+  _Explorando el contenido de nuestros archivos_.
   Consultado el 04 de diciembre de 2023 de
   <https://platzi.com/home/clases/2292-terminal/37345-explorando-el-contenido-de-nuestros-archivos/>
 
@@ -79,7 +81,7 @@ toc:
 
 - Pankaj & Singh A.
   (Agosto 3, 2022).
-  _Grep Command in Linux/UNIX_
+  _Grep Command in Linux/UNIX_.
   Consultado el 04 de diciembre de 2023 de
   <https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix>
 
@@ -87,5 +89,5 @@ toc:
   (s.f)
   _Filters / Text Processing Commands_.
   Complete Linux Training Course to Get Your Dream IT Job 2024.
-  Recuperado el 08 de diciembre de 2024 de
+  Consultado el 08 de diciembre de 2024 de
   <https://www.udemy.com/course/complete-linux-training-course-to-get-your-dream-it-job/learn/lecture/16199784>

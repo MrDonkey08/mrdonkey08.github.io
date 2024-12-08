@@ -16,11 +16,13 @@ tags:
   - conversión
   - compresión
 
-date: 2023-12-11
+date: 2023-12-11 10:55
 last_updated: 2024-12-08
 
 toc:
-  sidbar: right
+  beginning: true
+
+pretty_table: true
 ---
 
 ## Navegación Entre Archivos
@@ -90,18 +92,18 @@ toc:
   (s.f.).
   _File System Navigation Commands (cd, ls and pwd)_.
   Complete Linux Training Course to Get Your Dream IT Job 2024.
-  Recuperado el 08 de diciembre de 2024 de
+  Consultado el 08 de diciembre de 2024 de
   <https://www.udemy.com/course/complete-linux-training-course-to-get-your-dream-it-job/learn/lecture/9540520>
 
 - Devars E
   (s.f.).
-  _¿Aprendiendo a camninar en la terminal?_
+  _¿Aprendiendo a camninar en la terminal?_.
   Consultado el 04 de diciembre de 2023 de
   <https://platzi.com/home/clases/2292-terminal/37342-aprendiendo-a-caminar-en-la-terminal/>
 
 - Devars E
   (s.f.).
-  _Manipulando archivos y directorios_
+  _Manipulando archivos y directorios_.
   Consultado el 04 de diciembre de 2023 de
 - <https://platzi.com/home/clases/2292-terminal/37344-manipulando-archivos-y-directorios/>
 
@@ -113,11 +115,12 @@ toc:
 
 - Deyimar A.
   (noviembre 21, 2024).
-  _Los 40 comandos de Linux más populares e imprescindibles_
+  _Los 40 comandos de Linux más populares e imprescindibles_.
   Consultado el 04 de diciembre de 2023 de
   <https://www.hostinger.mx/tutoriales/linux-comandos>
 
 - Geeksforgeeks
   (julio 12, 2024).
-  _ZIP command in Linux with examples_
+  _ZIP command in Linux with examples_.
+  Consultado el 08 de diciembre de 2024 de
   <https://www.geeksforgeeks.org/zip-command-in-linux-with-examples/>

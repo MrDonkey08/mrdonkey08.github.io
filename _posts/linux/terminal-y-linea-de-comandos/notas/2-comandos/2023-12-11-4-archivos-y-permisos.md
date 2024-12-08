@@ -16,11 +16,13 @@ tags:
   - permisos
   - usuarios
 
-date: 2023-12-11
+date: 2023-12-11 15:22
 last_updated: 2024-12-08
 
 toc:
-  sidbar: right
+  beginning: true
+
+pretty_table: true
 ---
 
 ## Tipos de Archivos
@@ -74,12 +76,12 @@ toc:
   (s.f)
   _Linux File Types_.
   Complete Linux Training Course to Get Your Dream IT Job 2024.
-  Recuperado el 08 de diciembre de 2024 de
+  Consultado el 08 de diciembre de 2024 de
   <https://www.udemy.com/course/complete-linux-training-course-to-get-your-dream-it-job/learn/lecture/10173348>
 
 - [Imran Afzal](https://www.udemy.com/course/complete-linux-training-course-to-get-your-dream-it-job/#instructor-1)
   (s.f)
   _User Account Management (useradd, groupadd, usermod, userdel, groupdel)_.
   Complete Linux Training Course to Get Your Dream IT Job 2024.
-  Recuperado el 08 de diciembre de 2024 de
+  Consultado el 08 de diciembre de 2024 de
   <https://www.udemy.com/course/complete-linux-training-course-to-get-your-dream-it-job/learn/lecture/9165636>

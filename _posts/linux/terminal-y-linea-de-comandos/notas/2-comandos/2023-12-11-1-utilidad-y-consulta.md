@@ -14,11 +14,13 @@ tags:
   - documentacion
   - utilidad
 
-date: 2023-12-11
+date: 2023-12-11 08:41
 last_updated: 2024-12-08
 
 toc:
-  sidbar: right
+  beginning: true
+
+pretty_table: true
 ---
 
 ## Utilidad
@@ -77,26 +79,26 @@ toc:
 
 - Geeksforgeeks
   (junio 09, 2023).
-  _Clear Command in Linux with Examples_
-  Recuperado el 08 de diciembre de 2024 de
+  _Clear Command in Linux with Examples_.
+  Consultado el 08 de diciembre de 2024 de
   <https://www.geeksforgeeks.org/clear-command-in-linux-with-examples/>
 
 - [Bobbin Zachariah](https://linuxopsys.com/author/bobbin)
   (noviembre 11, 2022).
-  _Cal Command in Linux_
+  _Cal Command in Linux_.
   [LinuxOPsys](https://linuxopsys.com/)
-  Recuperado el 08 de diciembre de 2024 de
+  Consultado el 08 de diciembre de 2024 de
   <https://linuxopsys.com/topics/cal-command-in-linux>
 
 - [Imran Afzal](https://www.udemy.com/course/complete-linux-training-course-to-get-your-dream-it-job/#instructor-1)
   (s.f.).
   _93. Monitor Users (who, last, w, id)_.
   Complete Linux Training Course to Get Your Dream IT Job 2024.
-  Recuperado el 08 de diciembre de 2024 de
+  Consultado el 08 de diciembre de 2024 de
   <https://www.udemy.com/course/complete-linux-training-course-to-get-your-dream-it-job/learn/lecture/9165640>
 
 - [Linux Command](https://linuxcommand.org/).
   (s.f.).
-  _Navigation_
-  Recuperado el 08 de diciembre de 2024 de
+  _Navigation_.
+  Consultado el 08 de diciembre de 2024 de
   <https://linuxcommand.org/lc3_lts0020.php>

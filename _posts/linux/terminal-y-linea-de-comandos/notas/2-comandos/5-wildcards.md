@@ -1,34 +1,71 @@
 ---
+layout: post
 title: Wildcards
 author: Alan Yahir Juárez Rubio
-type: Nota
+description: |
+  Qué son las wildcards, qué tipos existen y ejemplos de cómo utilizarlas
 
-aliases:
+categories:
+  - linux
+  - comandos
 tags:
+  - wildcards
 
-creation date: 11-12-2023
-last modification date: 14-12-2023
+date: 2023-12-11
+last_updated: 2024-12-08
+
+toc:
+  sidbar: right
 ---
 
-# WildCards
-
-|    Comando     | Nombre | Descripción | Flags | Argumento | Ejemplo |
-| :------------: | :----: | :---------- | :---: | :-------: | ------- |
-|      `*`       |        |             |       |           |         |
-|      `?`       |        |             |       |           |         |
-| `[carácteres]` |        |             |       |           |         |
-|  `[[clase]]`   |        |             |       |           |         |
+| Comando         | Nombre                 | Descripción                                                                                   | Ejemplo                                            |
+| --------------- | ---------------------- | --------------------------------------------------------------------------------------------- | -------------------------------------------------- |
+| `*`             | Asterisco              | Coincide con cualquier cantidad de caracteres, incluyendo ninguno                             | `ls *.txt` (archivos con extensión `.txt`)         |
+| `?`             | Interrogación          | Coincide con exactamente un carácter                                                          | `ls file?.txt` (archivos como `file1.txt`)         |
+| `[caracteres]`  | Corchetes              | Coincide con cualquiera de los caracteres indicados entre los corchetes                       | `ls [aeiou]*` (archivos que inician con vocal)     |
+| `[!caracteres]` | Corchetes con negación | Coincide con cualquier carácter que no esté indicado entre los corchetes                      | `ls [!aeiou]*` (archivos que no inician con vocal) |
+| `[[clase]]`     | Clases de caracteres   | Coincide con cualquier carácter que pertenezca a la clase especificada entre corchetes dobles | `ls *[[digit]]` (archivos que terminan en números) |
 
 ## Clases
 
-|   Comando   | Nombre | Descripción | Flags | Argumento | Ejemplo |
-| :---------: | :----: | :---------- | :---: | :-------: | ------- |
-| `[:alnum:]` |        |             |       |           |         |
-| `[:alpha:]` |        |             |       |           |         |
-| `[:digit:]` |        |             |       |           |         |
-| `[:lower:]` |        |             |       |           |         |
-| `[:upper:]` |        |             |       |           |         |
+Las clases se usan dentro de corchetes dobles (`[[:clase:]]`) para definir conjuntos de caracteres basados en categorías predefinidas.
+
+| Comando       | Nombre       | Descripción                                                                   | Ejemplo                                                   |
+| ------------- | ------------ | ----------------------------------------------------------------------------- | --------------------------------------------------------- |
+| `[[:alnum:]]` | Alfanumérico | Coincide con letras (mayúsculas y minúsculas) y dígitos (`a-z`, `A-Z`, `0-9`) | `ls *[[:alnum:]]` (archivos terminados en letra o número) |
+| `[[:alpha:]}` | Alfabético   | Coincide con letras, tanto mayúsculas como minúsculas (`a-z`, `A-Z`)          | `ls [[:alpha:]]*` (archivos que comienzan con letras)     |
+| `[[:digit:]}` | Dígitos      | Coincide únicamente con números (`0-9`)                                       | `ls [[:digit:]]*` (archivos que comienzan con un número)  |
+| `[[:lower:]}` | Minúsculas   | Coincide con letras minúsculas (`a-z`)                                        | `ls [[:lower:]]*` (archivos que comienzan con minúsculas) |
+| `[[:upper:]]` | Mayúsculas   | Coincide con letras mayúsculas (`A-Z`)                                        | `ls [[:upper:]]*` (archivos que comienzan con mayúsculas) |
 
 <div style="page-break-after: always;"></div>
 
+---
+
 ## Referencias
+
+- Devars E
+  (s.f.).
+  _Wildcards_.
+  Consultado el 04 de diciembre de 2023 de
+  <https://platzi.com/home/clases/2292-terminal/37346-wildcards/>
+
+- Platzi
+  (s.f.).
+  _Command Line Cheat Sheet_.
+  Consultado el 04 de diciembre de 2023 de
+- <https://static.platzi.com/media/public/uploads/command-line-cheat-sheet_93c5cbb9-8acf-423e-a92e-351a461f15ae.pdf>
+
+- [Imran Afzal](https://www.udemy.com/course/complete-linux-training-course-to-get-your-dream-it-job/#instructor-1)
+  (s.f)
+  _WildCards (\*, ?, ^, \[\])_.
+  Complete Linux Training Course to Get Your Dream IT Job 2024.
+  Recuperado el 08 de diciembre de 2024 de
+  <https://www.udemy.com/course/complete-linux-training-course-to-get-your-dream-it-job/learn/lecture/9844424>
+
+- [Linux Command](https://linuxcommand.org/).
+  (s.f.).
+  _Manipulating Files_
+  Recuperado el 08 de diciembre de 2024 de
+- <https://linuxcommand.org/lc3_lts0100.php>
+  -khttps://linuxcommand.org/lc3_lts0050.php

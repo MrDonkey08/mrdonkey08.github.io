@@ -63,13 +63,14 @@ pretty_table: true
 |       Comando       | Descripción                                                                                   |
 | :-----------------: | --------------------------------------------------------------------------------------------- |
 |        `top`        | Muestra información en tiempo real sobre los procesos en ejecución                            |
-|        `df`         | Imprime el uso de espacio del sistema de archivos (e.g. unidades, particiones)                |
+|        `df`         | Imprime el uso de espacio del sistema de archivos (e.g., unidades, particiones)               |
 |       `dmesg`       | Imprime o controla el _kernel ring buffer_, información del arranque y errores del sistema    |
 |      `iostat`       | Imprime estadísticas del CPU y estadísticas de _input/output_ para dispositivos y particiones |
 |      `netstat`      | Imprime conexiones de red, tablas de enrutamiento, estadísticas de interfaz, etc              |
 |        `ip`         | Imprime y manipula enrutamiento, dispositivos de red, interfaces y túneles                    |
 |        `ss`         | Herramienta para investigar _sockets_ y conexiones de red                                     |
 |       `free`        | Muestra la cantidad de memoria libre y usada en el sistema                                    |
+|      `sensors`      | Muestra la información de los sensores (e.g., temperaturas, voltajes)                         |
 | `cat /proc/cpuinfo` | Muestra información técnica acerca de la CPU                                                  |
 | `cat /proc/meminfo` | Muestra información técnica acerca de la memoria                                              |
 

@@ -3,18 +3,19 @@ layout: post
 title: Introducción a Linux
 author: Alan Yahir Juárez Rubio
 description: |
-  Qué es Linux, cuáles son sus orígenes, distribuciones de Linux y distintas
-  maneras de instalar Linux
+  Qué es Linux, Unix y GNU, cuáles son sus orígenes, distribuciones de Linux y
+  distintas maneras de instalar Linux
 
 categories:
   - linux
 tags:
   - gnu
   - linux
+  - unix
   - distro
 
 date: 2025-03-29 16:24
-last_updated: 2025-03-29 16:24
+last_updated: 2025-04-28 21:52
 
 toc:
   sidebar: right
@@ -24,26 +25,79 @@ pretty_table: true
 
 ## Orígenes de Linux
 
-### El Nacimiento del Kernel
+### El Proyecto Unix
 
-El **kernel de Linux** fue creado por **Linus Torvalds** en 1991 como proyecto
-universitario en Helsinki. Su objetivo inicial era desarrollar un kernel
-**libre** y **gratuito** compatible con Unix.
+**Unix** fue un proyecto iniciado por **Ken Thompson** en 1961 el cual planteaba
+crear un sistema que permitiese ejecutar tareas de forma paralela en las
+computadoras.
+
+Para las primeras versiones de Unix, era necesario portearlo para
+las diferentes arquitecturas. Sin embargo, con la llegada del lenguaje de
+programación C y con el pasar del tiempo, **Ken Thompson** y **Dennis Richard**
+fueron capaz de desarrollar un Unix portable.
+
+### Innovaciones de Unix
+
+El SO **Unix** trajo una serie de características que fueron un pilar
+fundamental para el desarrollo de SO's, entre ellas se encuentran:
+
+- **Usuario root**:
+
+  - uid: 0
+  - gid: 0
+
+- **Fork**: Función que permitió la gestión de procesos _multitasking_.
+  Implementó un sistema de procesos jerárquico
+
+- **Sistema de archivos jerárquico**: Dónde el sistema parte de la raíz y tiene
+  una serie de carpetas con un propósito específico.
+
+- **La forma de interactuar con la terminal**
+
+  - Gestión de procesos en la terminal
+  - Capacidad de utilizar la salida de un comando como la entrada de otro
+    comando.
+
+- **Filosofía de diseño**:
+
+  - Todo es un archivo
+  - Haz una cosa y hazla bien
+
+> Los SO's basadas en Unix, utilizan todas estas características mencionadas
+> previamente. A estos SO's se les denomina SO's Unix-like.
+{: .block-note }
 
 ### El Proyecto GNU
 
 El proyecto **GNU (GNU's Not Unix)** fue iniciado por **Richard Stallman** en
-1983 con el objetivo de desarrollar un SO completamente libre y de código
-abierto denominado GNU.
+1983 con el objetivo de desarrollar un SO basado en Unix, completamente libre y
+de código abierto denominado GNU.
 
 El proyecto **GNU** desarrollo muchas de las herramientas esenciales que se
 utilizan en los SO's modernos, tales como GCC (compilador de C/C++), Bash
-(shell), bibliotecas del sistema, etc.
+(shell), GDB (debugger), glibc (bibliotecas del sistema), etc.
+
+Richard Stallman, tenía todos los componentes del SO's, a excepción del kernel.
+Como parte del desarrollo del proyecto GNU, Richard Stallman en 1990 comenzó a
+desarrollar el proyecto GNU Hurd, el cual planteaba desarrollar el kernel del
+proyecto **GNU**.
+
+### El Proyecto Linux
+
+**Linus Torvalds** en 1991, comenzó a desarrollar un sistema operativo gratuito
+y libre basado en Minix (clon de Unix con fines educativos). Desarrolló su
+propio kernel y porteó herramientas del proyecto GNU para consolidar su propio
+SO.
+
+> Este proyecto desarrolló la pieza clave que le hacia falta al proyecto GNU, el
+> kernel. Este kernel se terminó llamando **linux**
+{: .block-important }
 
 ### GNU/Linux: La Unión Fundamental
 
-**GNU/Linux** es la colaboración entre el proyecto **GNU** y el **kernel de
-Linux** para desarrollar SO completo libre y de código abierto.
+El proyecto de **Linux Torvalds** se terminó convirtiendo en **GNU/Linux**, el
+cual es una colaboración entre el proyecto **GNU** y el **kernel de Linux** para
+desarrollar SO completo libre y de código abierto.
 
 > - El término "Linux" coloquialmente se refiere a sistemas GNU/Linux, pero
 >   técnicamente solo es el kernel.
@@ -59,7 +113,7 @@ Linux** para desarrollar SO completo libre y de código abierto.
 | **Gratuito**                                       | Sin costos de licencia (aunque algunas distros empresariales son pagadas)      |
 | **Código abierto**                                 | Transparencia total: cualquiera puede auditar o modificar el código            |
 | **Personalizable**                                 | Desde el kernel hasta el escritorio (ideal para desarrolladores y entusiastas) |
-| **Eficiencia**                                     | Funciona en hardware antiguo (e.g., Pentium IV con 1GB RAM)                    |
+| **Eficiencia**                                     | Funciona en hardware antiguo (e.g., Pentium IV con 1 GB RAM)                   |
 | **Seguridad**                                      | Arquitectura de permisos robusta + menor objetivo de malware vs Windows        |
 | **Dominio en servidores y computación en la nube** | ~96% de los top 1M sitios web usan Linux (ZDNet, 2024)                         |
 | **Herramientas nativas**                           | Mejor soporte para desarrollo, redes y ciberseguridad (Python, Docker, etc.)   |
@@ -122,11 +176,11 @@ Linux es una **familia de sistemas operativos** personalizables llamados
 
 ### Ciberseguridad
 
-| Distro     | Descripción                              | Basada en  |
-| ---------- | ---------------------------------------- | ---------- |
-| Kali Linux | Herramientas de pentesting preinstaladas | Debian     |
-| Parrot OS  | Seguridad, privacidad y desarrollo       | Debian     |
-| BlackArch  | Repositorio especializado en pentesting  | Arch Linux |
+| Distro     | Descripción                                                | Basada en  |
+| ---------- | ---------------------------------------------------------- | ---------- |
+| Kali Linux | Herramientas de pentesting y forense digital preinstaladas | Debian     |
+| Parrot OS  | Herramientas de pentesting y forense digital preinstaladas | Debian     |
+| BlackArch  | Repositorio especializado en pentesting                    | Arch Linux |
 
 ### Privacidad
 
@@ -145,12 +199,13 @@ Linux es una **familia de sistemas operativos** personalizables llamados
 
 ### Enterprise/Servidores
 
-| Distro             | Descripción                                | Basada en |
-| ------------------ | ------------------------------------------ | --------- |
-| CentOS             | Estabilidad empresarial (heredado de RHEL) | RHEL      |
-| Red Hat Enterprise | Estándar corporativo con soporte pago      | -         |
-| Ubuntu Server      | Servidores y servicios en la nube          | Ubuntu    |
-| openSUSE Leap      | Estabilidad para servidores y empresas     | SUSE      |
+| Distro             | Descripción                                  | Basada en |
+| ------------------ | -------------------------------------------- | --------- |
+| Red Hat Enterprise | Estándar corporativo basada en suscripciones | -         |
+| CentOS             | Estabilidad empresarial (heredado de RHEL)   | RHEL      |
+| AlmaLinux          | Reemplazo comunitario estable de CentOS 8    | CentOS    |
+| Ubuntu Server      | Servidores y servicios en la nube            | Ubuntu    |
+| openSUSE Leap      | Estabilidad para servidores y empresas       | SUSE      |
 
 ## Tipos de Instalación de Linux
 
@@ -251,3 +306,21 @@ duro.
   _Linux Statistics - 2024_.
   Consultado el 30 de marzo de 2025 de
   <https://truelist.co/blog/linux-statistics/>
+
+- Google
+  (s.f.).
+  _More Linux distributions_
+  Consultado el 28 de abril de 2024 de
+  <https://www.coursera.org/learn/linux-and-sql/supplement/wJh3U/more-linux-distributions>
+
+- eimnwux
+  (abril 18, 2025).
+  _Cómo UNIX Sentó las Bases de GNU/Linux_.
+  Consultado el 28 de abril de 2024 de
+  <https://www.youtube.com/watch?v=R4znx49SLxA&t=2s>
+
+- eimnwux
+  (abril 18, 2025).
+  _Cómo Nació GNU/Linux: Software Libre y una Chispa Explosiva_.
+  Consultado el 28 de abril de 2024 de
+- <https://www.youtube.com/watch?v=Rch039H0SL4>
